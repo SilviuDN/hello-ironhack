@@ -1,0 +1,26 @@
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: green;
+    width: 150px;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    border: 1px solid black;
+}
+
+.danger{
+color: red;
+border: 1px solid red;
+}
+
+.success{
+color: green;
+border: 1px solid green;
+}
+
+.light{
+    color: white;
+    border: 1px solid white;
+
+}

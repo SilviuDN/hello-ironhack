@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import FeatureCards from './FeatureCards';
+
+import icon1 from './icon1.png'
+import icon2 from './icon2.png'
+import icon3 from './icon3.png'
+import icon4 from './icon4.png'
+
+
+const featureCards = [
+  { title: "Declarative", description: "React makes it painless to create interactive UIs.", imageSource: {icon1}},
+  { title: "Components", description: "Build encapsuled components that manage their state.", imageSource: {icon2}},
+  { title: "Single-Way", description: "A set of imutable values is passed to the components.", imageSource :{icon3}},
+  { title: "JSX", description: "Statically typed, designed to run on modern browsers.", imageSource: {icon4}}
+]
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <Header titleText="Say Hello to ReactJS"/>
+        <FeatureCards featureCards={featureCards}/>
+        
+
+    </>
   );
 }
 

@@ -1,0 +1,13 @@
+.featureCard{
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em;
+    width: calc(25% - 4em);
+} 
+
+.featureCard img{
+    width: 100%;
+    object-fit: cover;
+
+}

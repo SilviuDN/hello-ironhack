@@ -1,0 +1,21 @@
+header{
+    height: 100%;
+    color: #fff;
+    background-color: grey;
+    background-image: url('react-logo.svg');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-position: center;
+    height: 70vh;
+    text-align: center;
+    /* padding-top: 20vh; */
+}
+
+.hero{
+    margin-top: 10vh;
+}
+
+/* Nav{
+    position: absolute;
+    top: 0;
+} */
