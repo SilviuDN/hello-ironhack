@@ -10,3 +10,6 @@ export const featureCards = [
     { title: "Single-Way", description: "A set of imutable values is passed to the components.", imageSource :{icon3}},
     { title: "JSX", description: "Statically typed, designed to run on modern browsers.", imageSource: {icon4}}
   ]
+
+
+export const pics = [ icon1, icon2, icon3, icon4 ]
